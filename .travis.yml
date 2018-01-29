@@ -1,0 +1,5 @@
+language: java
+script: mvn verify source:jar
+jdk:
+  - oraclejdk8
+  - openjdk8
