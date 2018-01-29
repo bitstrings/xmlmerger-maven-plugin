@@ -116,6 +116,11 @@ public class MergePersistenceXmlMojo
             try ( OutputStream out = new TFileOutputStream( outputFile ) )
             {
                 combiner.buildDocument( out );
+
+                if ( getLog().isInfoEnabled() )
+                {
+                    getLog().info( "Output file [ " + outputFile + " ]" );
+                }
             }
         }
         catch ( Exception e )
