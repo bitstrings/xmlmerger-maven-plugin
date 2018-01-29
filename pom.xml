@@ -173,11 +173,6 @@
             <artifactId>maven-shared-io</artifactId>
             <version>3.0.0</version>
         </dependency>
-        <dependency>
-            <groupId>io.github.azagniotov</groupId>
-            <artifactId>ant-style-path-matcher</artifactId>
-            <version>1.0.0</version>
-        </dependency>
     </dependencies>
 
     <reporting>
